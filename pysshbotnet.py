@@ -1,3 +1,7 @@
+# Adam Musciano - Simple python ssh botnet, using pexpect in python 2.7
+# Inspired by: Digital Gangster
+#
+#
 from pexpect import pxssh
  
 class Client:
@@ -51,4 +55,4 @@ botnetCommand('ls -la')
 
 #display  all clients
 displayClients()
-# Digital Gangster [2015-02-26]
+
